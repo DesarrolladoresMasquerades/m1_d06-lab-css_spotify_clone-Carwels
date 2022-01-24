@@ -6,3 +6,235 @@ Green: #00B172
 White: #FFF
 
 */
+/* Main part */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Logo info*/
+.logo {
+    width: 100px;
+    float: left;
+}
+
+.logo img {
+    width: 180px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+/* Navigator */
+
+.navi {
+    display: flex;
+    float: right;
+    justify-content:center;
+    float:right;
+    padding-left: 15px;
+    padding-right: 200px;
+}
+
+.banner {
+    width: 100%;
+    height: 80px;
+    background-color: white;
+}
+
+/* Big image*/
+
+.bigger {
+    background-image: url("/images/landing.jpg");
+    background-size: cover;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding-top:100px;
+}
+
+.inside {
+    width: 1500px;
+    text-align: center;
+    margin:0 auto;
+    color: white;
+    padding-top:100px; 
+
+}
+
+.inside h1 {
+    font-size: 100px;
+    color: white;
+    font-weight: 600;
+}
+
+.inside h2 {
+    padding-top: 15px;
+    font-size: 20px;
+    line-height: 1;
+    font-weight:200;
+}
+
+/* */
+
+.whats-on {
+    width: 200px;
+    padding-bottom: 5px; 
+    margin: 0 auto;
+    text-align: center;
+    border-bottom: 3px solid #00B172;
+}
+
+.whats-on h3 {
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+/* Icon part*/
+
+.anouncement {
+    background-color: white;
+    width: 100%;
+    height: 400px;
+    padding-top: 40px; 
+
+}
+
+.container-main {
+    margin-top: 150px;
+    width: 100%;
+}
+
+.container-main h4 {
+    color: #00B172;
+    text-align: center;
+    font-weight: 600; 
+    font-size: 1.9rem;
+    padding-top:15px;
+    padding-bottom: 30px; 
+}
+
+.container-main p {
+    font-size: 1.5rem;
+    font-weight: 30;
+    text-align: center
+
+}
+/*FIRST container*/
+.container-one {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-left: 5%;
+}
+
+.container-one img {
+    height: 90px;
+}
+
+/*SECOND container*/
+.container-second {
+    width: 30%;
+    float: left;
+    text-align: center;
+}
+
+.container-second img{
+    height: 90px;
+}
+
+/*THIRD container*/
+.container-third {
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-right: 5%;
+}
+
+.container-third img {
+    height: 90px;
+}
+
+/* FOOTER */
+
+.kanye h5 {
+    color:white;
+    font-size: 2rem;
+    font-weight: 600; 
+    padding-bottom:10px;
+}
+
+.foot {
+    width: 470px;
+    height: 150px;
+    margin-bottom:50px; 
+    margin-left:120px; 
+    margin-right: 0;
+}
+
+.foot h5 {
+    color:white;
+    font-size: 1.7rem;
+    font-weight: 700; 
+    padding-bottom:10px; 
+    text-align: left;
+}
+
+.foot p {
+    color: black;
+    font-weight:400;
+    font-size: 1.2rem;
+    padding-top: 10px;
+    line-height: 1.5;
+}
+
+/* KANYE LAST PART*/
+
+.app {
+    display: flex;
+    justify-content:center;
+    float: left;
+    width: 60%;
+    margin-left: 40px;
+}
+
+.spotifyIcon {
+    display: flex;
+    margin-top: 300px;
+    align-content: center;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+.spotifyIcon img {
+    height: 150px;
+    width: 150px;
+}
+
+.app1 {
+    width: 100px;
+    height: 400px;
+    margin-left: 500px;
+    margin-top: 100px;
+    float: right;
+}
+
+.app1 img {
+    width: 350px;
+    height: 600px;
+}
+
+.box {
+    height: 30%;
+    width: 40%;
+}
+
+.banner1 {
+    width: 100%;
+    height: 1000px;
+    background-color: green;
+}
